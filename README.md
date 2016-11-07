@@ -10,9 +10,6 @@ We'll introduce a new data structure called hashes. We'll cover how to create th
 3. Retrieve data from hashes using the "bracket" method.
 4. Add data to hashes using the "bracket-equals" method.
 
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/0JSsFQGYaeA" frameborder="0" allowfullscreen></iframe>
-
 ### Why Hashes
 
 > Hashes are a lot like arrays: they have a bunch of slots that can point to various objects. However, in an array, the slots are lined up in a row, and each one is numbered (starting from zero). In a hash, the slots aren’t in a row (they are just sort of jumbled together) and you can use any object to refer to a slot, not just a number.
@@ -150,14 +147,14 @@ We can make a new hash via the literal constructor, just like arrays.
 
 ```ruby
 my_hash = {}
-  => {}
+  #=> {}
 ```
 
 Initializing a hash that already contains data is a lot like initializing an array with data. We use the literal constructor:
 
 ```ruby
 pets = {"cat" => "Maru", "dog" => "Pluto"}
-  => {"cat" => "Maru", "dog" => "Pluto"}
+  #=> {"cat" => "Maru", "dog" => "Pluto"}
 ```
 In the upcoming lab, you'll get a chance to practice making your own hashes.
 
@@ -171,7 +168,7 @@ Retrieving data from a hash is similar to retrieving data from an array, but ins
 pets = {"cat" => "Maru", "dog" => "Pluto"}
 
 pets["cat"]
-  => "Maru"
+  #=> "Maru"
 ```
 Using `[]` is referred to as the **"bracket method".** It is actually a method just like any other––just like the methods you've been defining and like the methods available on objects such as Strings.
 
@@ -208,4 +205,5 @@ puts shipping_manifest
 ```
 Well done!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hash-overview-readme' title='Hashes'>Hashes</a> on Learn.co and start learning to code for free.</p>
+### Resources
+- [Video](https://www.youtube.com/embed/0JSsFQGYaeA)
